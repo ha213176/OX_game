@@ -155,10 +155,10 @@ int cmd_handler(char *cmd, int fd){
 
 void cmd_help(){
 	printf("\n--------------------------------\n");
-	printf("help: print all of cmd\n");
-	printf("list: print all of online users\n");
-	printf("logout: logout and exit\n");
-	printf("play [name]: play with \"name\"\n");
+	printf("help: print all of cmd.\n");
+	printf("list: print all of online users.\n");
+	printf("logout: logout and exit.\n");
+	printf("play [name]: play with \"name\", ex: play apple\n");
 	printf("put #-#: (#, 0~2), ex: put 0-1\n");
 	printf("--------------------------------\n");
 }
